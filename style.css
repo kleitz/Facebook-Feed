@@ -1,0 +1,81 @@
+/*
+* MASTER STYLESHEET
+*/
+
+* {
+    box-sizing:           border-box;
+    transition:           color 0.25s ease, background-color 0.25s ease;
+    -webkit-transition:   color 0.25s ease, background-color 0.25s ease;
+    -moz-transition:      color 0.25s ease, background-color 0.25s ease;
+}
+
+html, body {
+    background-color:     #FCFCFC;
+    width:                100%;
+    height:               100%;
+    padding:              0px;
+    margin:               0px;
+    font-family:          "Open Sans", Arial, sans-serif;
+    font-size:            16px;
+    font-weight:          300;
+}
+
+h1 {
+    text-align:            center;
+    color:                 navy;
+}
+
+h2 {
+    margin:                0px 0px 10px 0px;
+}
+
+a {
+    color:                 #333333;
+    text-decoration:       none;
+}
+
+img {
+    max-width:             100%;
+    width:                 auto;
+    height:                auto;
+}
+
+a:hover {
+    color:                 navy;
+}
+
+a.btn {
+    padding:              10px 24px;
+    border-radius:        3px;
+    color:                #FFFFFF;
+    background-color:     navy;
+    display:              inline-block;
+    margin-right:         20px;
+}
+
+a.btn:hover {
+    background-color:     blue;
+}
+
+div#facebook-feed {
+    max-width:             960px;
+    width:                 960px;
+    margin:                0px auto;
+    -webkit-column-count:   2;
+    -moz-column-count:      3;
+    -o-column-count:        2;
+    column-count:           2;
+}
+
+div.post {
+    page-break-inside:     avoid;
+    background-color:      #FFFFFF;
+    padding:               20px;
+    border:                solid 1px #D9D9D9;
+    margin-bottom:         20px;
+}
+
+p.count {
+     margin:                0px;
+     text-align:            right;
+}
